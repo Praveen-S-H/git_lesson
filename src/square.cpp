@@ -10,8 +10,11 @@ public:
   return(y*y);
 
 }
-
-
+int fct(int f){
+	if(f!=1)
+	return(f*fct(f-1));
+	return 1;
+}
 
 };
 
@@ -19,7 +22,7 @@ int main()
 {
 
 service sq1;
-cout<<sq1.sq(42)<<endl;
+cout<<"square of 42 is = "<<sq1.sq(422)<<endl<<"factorial of 4 is = "<<sq1.fct(3)<<endl;
 return 0;
 
 
