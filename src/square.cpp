@@ -23,5 +23,5 @@ cout<<sq1.sq(3)<<endl;
 return 0;
 
 
-
+//I've added this on git website
 }
