@@ -19,7 +19,7 @@ int main()
 {
 
 service sq1;
-cout<<sq1.sq(3)<<endl;
+cout<<sq1.sq(4)<<endl;
 return 0;
 
 
