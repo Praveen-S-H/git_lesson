@@ -5,9 +5,9 @@ class service
   int a,b;
 public:
 
- int sq(int x)
+ int sq(int z)
 {
-  return(x*x);
+  return(z*z);
 
 }
 
@@ -19,7 +19,7 @@ int main()
 {
 
 service sq1;
-cout<<sq1.sq(4)<<endl;
+cout<<sq1.sq(94)<<endl;
 return 0;
 
 
