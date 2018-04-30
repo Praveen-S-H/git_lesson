@@ -23,5 +23,6 @@ cout<<sq1.sq(3)<<endl;
 return 0;
 
 
-//I've added this on git website
+//I've added this on git websit
+// Added another line from git without commit change from command line
 }
