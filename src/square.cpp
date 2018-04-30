@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace	std;
+class service
+{
+  int a,b;
+public:
+
+ int sq(int x)
+{
+  return(x*x);
+
+}
+
+
+
+};
+
+int main()
+{
+
+service sq1;
+cout<<sq1.sq(3)<<endl;
+return 0;
+
+
+
+}
